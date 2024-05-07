@@ -22,7 +22,7 @@ public class HibernateUtil {
     }
 
     public static void closeSession(Session session){
-        session.close();
+        sessionFactory.close();
     }
 
 }

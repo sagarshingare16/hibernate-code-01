@@ -17,11 +17,13 @@
         <mapping class="org.example.mapping.oneToOne.entity.Question"/>
         <mapping class="org.example.mapping.oneToOne.entity.Answer"/>
 
-        <mapping class="org.example.mapping.oneToMany.Department"/>
-        <mapping class="org.example.mapping.oneToMany.Employee"/>
+      <!--  <mapping class="org.example.mapping.oneToMany.Department"/>
+        <mapping class="org.example.mapping.oneToMany.Employee"/>-->
 
         <mapping class="org.example.mapping.ManyToMany.Students"/>
         <mapping class="org.example.mapping.ManyToMany.Courses"/>
+
+        <mapping class="org.example.NativeAndHql.StudentDetails"/>
 
     </session-factory>
 </hibernate-configuration>
